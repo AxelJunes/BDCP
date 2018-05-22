@@ -1,9 +1,7 @@
 <p align="center">
-  <img src="http://adlr.org/wp-content/uploads/2014/07/logo_ucm.png"
-  height="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="http://informatica.ucm.es/data/cont/media/www/pag-78821/escudofdigrande.png"
-  height="200"/>
-  </p>
+  <img src="http://adlr.org/wp-content/uploads/2014/07/logo_ucm.png" height="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="http://informatica.ucm.es/data/cont/media/www/pag-78821/escudofdigrande.png" height="200"/>
+</p>
 
 # Application of Machine Learning Algorithms for Bipolar Disorder Crisis Prediction
 This is the project for my bachelor's thesis. The goal of this project is to apply different Machine Learning algorithms to patient data in order to create a prediction model that in the future will give psychiatrists a second opinion on whether their patients might be tending towards a depression or mania episode, or if they are staying in a normal state.
