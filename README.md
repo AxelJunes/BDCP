@@ -26,12 +26,19 @@ The following technologies and frameworks are used on the project:
 - [Jupyter Notebook](http://jupyter.org/)
 
 ## Code example
-The following code snippet shows how the patients' active daily hours are calculated:
+
+The following code snippet shows the application of a *Random Forest* algorithm to create a classifier:
 
 ```
-daily.loc[daily['Going to Bed time'] < daily['Wake Up time'], 'Going to Bed time'] = 
-    daily['Going to Bed time'] + 2400
-daily['Active_hours'] = abs((daily['Wake Up time'] - daily['Going to Bed time']).astype(int))
+X_train, X_test, y_train, y_test = train_test_split(
+      interviews_episodes.loc[:, interviews_episodes.columns != "episode"], 
+      interviews_episodes["episode"], test_size=0.3
+)
+                                              
+clf = RandomForestClassifier(n_jobs=-1)
+clf.fit(X_train, y_train)
+scores = cross_val_score(clf, X_test, y_test)
+print "Model accuracy: ", scores.mean()
 ```
 
 ## Prerequisites
