@@ -4,6 +4,7 @@ This is the project for my bachelor's thesis. The goal of this project is to app
 
 This project consists in:
   * A notebook made with *Jupyter Notebook* that contains the whole process of data cleaning and visualization as well as the application of different Machine Learning algorithms to predict the state of the patient.
+  
   * A *python* script that uses one of the classifiers dumped from the notebook and gives a prediction of the possible state a patient could be tending towards given the input of the doctor.
 
 ## Motivations
