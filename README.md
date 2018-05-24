@@ -4,11 +4,11 @@
 </p>
 
 # Application of Machine Learning Algorithms for Bipolar Disorder Crisis Prediction
-This is the project for my bachelor's thesis. The goal of this project is to apply different Machine Learning algorithms to patient data in order to create a prediction model that in the future will give psychiatrists a second opinion on whether their patients might be tending towards a depression or mania episode, or if they are staying in a normal state.
+This is the project for my bachelor's thesis. The goal of this project is to apply different Machine Learning algorithms to patient data in order to create a prediction model that in the future will give psychiatrists a second opinion on whether their patients might be tending towards a depression or mania episode, or if they are staying in a euthymic state.
 
 This project consists in:
-  * A notebook made with *Jupyter Notebook* that contains the whole process of data cleaning and visualization as well as the application of different Machine Learning algorithms to predict the state of the patient.
-  * A python script that uses one of the classifiers dumped from the notebook and gives a prediction of the possible state a patient could be tending towards given the input of the doctor.
+  * A notebook made with *Jupyter Notebook* that contains the whole process of data cleaning and Exploratory Data Analysis as well as the application of different Machine Learning algorithms to predict the state of the patient.
+  * A python script that uses a Random Forest classifier dumped from the notebook and gives a prediction of the possible state a patient could be tending towards given a certain user input.
 
 ## Motivations
 
