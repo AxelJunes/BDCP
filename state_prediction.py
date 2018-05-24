@@ -69,7 +69,7 @@ def show_prediction(pred):
     elif pred == 'M':
         msg = colored("The patient could be tending towards a MANIA episode", "yellow")
     else:
-        msg = colored("The patient is staying in a NORMAL state", "cyan")
+        msg = colored("The patient is staying in a EUTHYMIC state", "cyan")
     return msg
 
 # EXECUTION
