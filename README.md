@@ -97,3 +97,7 @@ To execute the Bipolar Disorder Crisis Prediction python script just run:
 ```sh
 $ python state_prediction.py
 ```
+
+### Example
+
+![Prediction execution example](https://github.com/AxelJunes/BDCP/blob/master/state_prediction.gif)
