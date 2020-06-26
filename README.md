@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="http://adlr.org/wp-content/uploads/2014/07/logo_ucm.png" height="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://logodix.com/logo/1830882.png" height="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="http://informatica.ucm.es/data/cont/media/www/pag-78821/escudofdigrande.png" height="200"/>
 </p>
 
